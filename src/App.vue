@@ -6,5 +6,5 @@
     <p>
       Hello World
     </p>
-  </div>  
+  </div>
 </template>
