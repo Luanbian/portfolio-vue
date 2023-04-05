@@ -1,10 +1,9 @@
-<script setup lang="ts">
-</script>
-
 <template>
   <div>
-    <p>
-      Hello World
-    </p>
+    <presentationView/>
   </div>
 </template>
+
+<script setup lang="ts">
+import presentationView from './components/presentation-view.vue'
+</script>
