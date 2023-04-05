@@ -1,13 +1,15 @@
 <template>
-    <Main>
+    <Principal>
         <Title>
             Competências
         </Title>
         <Bar/>
-    </Main>
+    </Principal>
+    <CardSection/>
 </template>
 
 <script setup lang="ts">
-import { Main, Title } from '../styles/habilities-styled'
-import { Bar } from '../styles/presentation-styled'
+import { Principal } from '../styles/habilities-styled'
+import { Bar, Title } from '../styles/presentation-styled'
+import CardSection from './Card-section.vue'
 </script>
