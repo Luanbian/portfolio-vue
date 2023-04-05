@@ -1,8 +1,15 @@
 import styled from "vue3-styled-components";
 
+export const Main = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+`
+
 export const Title = styled.h1`
 
 `
+
 export const Bar = styled.div`
   background-image: linear-gradient( to right, #7416dd, #13c7e3 );
   width: 200px;
@@ -12,19 +19,38 @@ export const Bar = styled.div`
 export const Subtitle = styled.h2`
 
 `
+
 export const PerfilPhoto = styled.img`
   width: 200px;
   height: 200px;
 `
 
 export const Square = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #1d2528;
   width: 100%;
   max-width: 100vw;
-  height: 50px;
+  height: 170px;
+`
+
+export const Phrase = styled.p`
+  color: #b2bbc1;
+  font-size: 1.2em;
+  margin: 2%;
 `
 
 export const Button = styled.button`
   background-image: linear-gradient( to right, #7416dd, #13c7e3 );
-  color: white;
+  margin: 5%;
+  color: #f7f7f7;
+  border-radius: 5px;
+  border-color: #f7f7f7;
+  font-size: 1em;
+  width: 150px;
+  height: 50px;
+  &:hover {
+    cursor: pointer;
+  }
 `
