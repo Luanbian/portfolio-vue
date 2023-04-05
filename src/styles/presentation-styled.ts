@@ -12,3 +12,10 @@ export const Bar = styled.div`
     width: 200px;
     height: 5px;
 `
+
+export const Square = styled.div`
+  background: red;
+  width: 100%;
+  max-width: 100vw;
+  height: 50px;
+`;
