@@ -26,6 +26,7 @@ export const Subtitle = styled.h2`
 export const PerfilPhoto = styled.img`
   width: 22%;
   height: 22%;
+  -webkit-filter: drop-shadow(20px 30px 40px rgba(0 0 0 / 50%));
 `
 
 export const Square = styled.div`
