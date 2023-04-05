@@ -1,19 +1,18 @@
 <template>
-  <div>
     <Title>Luan Almeida</Title>
     <Bar></Bar>
     <Subtitle>Desenvolvedor FullStack</Subtitle>
+    <PerfilPhoto src="../../assets/images/perfil.png" />
     <Square>
       <div>
         Teste
-        <button>
+        <Button>
           Contato
-        </button>
+        </Button>
       </div>
     </Square>
-  </div>
 </template>
 
 <script setup lang="ts">
-import { Title, Subtitle, Bar, Square } from '../styles/presentation-styled'
+import { Title, Subtitle, Bar, Square, Button, PerfilPhoto } from '../styles/presentation-styled'
 </script>
