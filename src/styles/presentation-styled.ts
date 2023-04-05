@@ -1,4 +1,5 @@
 import styled from "vue3-styled-components";
+import './variables.css';
 
 export const Main = styled.div`
   display: flex;
@@ -7,18 +8,18 @@ export const Main = styled.div`
 `
 
 export const Title = styled.h1`
-  color: #3d3f40;
+  color: var(--title-color);
   font-size: 3.0rem;
 `
 
 export const Bar = styled.div`
-  background-image: linear-gradient( to right, #7416dd, #13c7e3 );
+  background-image: linear-gradient( to right, var(--to), var(--from));
   width: 200px;
   height: 5px;
 `
 
 export const Subtitle = styled.h2`
-  color: #868686;
+  color: var(--subtitle-color);
   font-size: 1.5rem;
 `
 
@@ -31,24 +32,24 @@ export const Square = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #1d2528;
+  background: var(--square-color);
   width: 100%;
   max-width: 100vw;
   height: 170px;
 `
 
 export const Phrase = styled.p`
-  color: #b2bbc1;
+  color: var(--description-color);
   font-size: 1.2rem;
   margin: 2%;
 `
 
 export const Button = styled.button`
-  background-image: linear-gradient( to right, #7416dd, #13c7e3 );
+  background-image: linear-gradient( to right, var(--to), var(--from));
   margin: 5%;
-  color: #f7f7f7;
+  color: var(--light-color);
   border-radius: 5px;
-  border-color: #f7f7f7;
+  border-color: var(--light-color); 
   font-size: 1rem;
   width: 150px;
   height: 50px;
