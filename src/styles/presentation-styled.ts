@@ -7,7 +7,8 @@ export const Main = styled.div`
 `
 
 export const Title = styled.h1`
-
+  color: #3d3f40;
+  font-size: 3.0rem;
 `
 
 export const Bar = styled.div`
@@ -17,12 +18,13 @@ export const Bar = styled.div`
 `
 
 export const Subtitle = styled.h2`
-
+  color: #868686;
+  font-size: 1.5rem;
 `
 
 export const PerfilPhoto = styled.img`
-  width: 200px;
-  height: 200px;
+  width: 22%;
+  height: 22%;
 `
 
 export const Square = styled.div`
@@ -37,7 +39,7 @@ export const Square = styled.div`
 
 export const Phrase = styled.p`
   color: #b2bbc1;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   margin: 2%;
 `
 
@@ -47,7 +49,7 @@ export const Button = styled.button`
   color: #f7f7f7;
   border-radius: 5px;
   border-color: #f7f7f7;
-  font-size: 1em;
+  font-size: 1rem;
   width: 150px;
   height: 50px;
   &:hover {
