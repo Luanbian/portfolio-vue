@@ -13,12 +13,14 @@ export const Card = styled.div`
     flex-direction: column;
     align-items: center;
     width: 100%;
+    border: var(--square-color) 1px solid;
 `
 
 export const All = styled.div`
     display: flex;
     justify-content: space-around;
     margin: 3%;
+    box-shadow: 20px 30px 40px rgba(0 0 0 / 50%);
 `
 
 export const BoxIcon = styled.div`
