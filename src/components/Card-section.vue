@@ -1,27 +1,24 @@
 <template>
-  <All>
-    <Display>
-      <Card v-for="hability in habilities" :key="hability.id">
-        <BoxIcon v-bind:style="{ backgroundColor: hability.middle ? 'var(--square-color)' : 'var(--light-color)'}">
-          <IconTitle :src='hability.icon'/>
-        </BoxIcon>
-        <div>
-          {{ hability.title }}
-        </div>
-        <div style="display: flex;">
-          <DescImage :src='hability.desc.item1'/>
-          <DescImage :src='hability.desc.item2'/>
-        </div>
-        <DescImage :src='hability.desc.item3'/>
-      </Card>
-    </Display>
-  </All>
+  <div>
+    <div v-for="hability in habilities" :key="hability.id">
+      <div v-bind:style="{ backgroundColor: hability.middle ? 'var(--square-color)' : 'var(--light-color)'}">
+        <img :src='hability.icon'/>
+      </div>
+      <p>
+        {{ hability.title }}
+      </p>
+      <div style="display: flex;">
+        <img :src='hability.desc.item1'/>
+        <img :src='hability.desc.item2'/>
+      </div>
+      <img :src='hability.desc.item3'/>
+    </div>
+  </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 import '../styles/variables.css'
-import { Card, Display, DescImage, IconTitle, BoxIcon, All } from '../styles/habilities-styled'
 
 export default defineComponent({
   name: 'Card-section',
@@ -62,8 +59,6 @@ export default defineComponent({
       ]
     }
   },
-  components: {
-    Card, Display, DescImage, IconTitle, BoxIcon, All
-  }
+  components: {}
 })
 </script>
