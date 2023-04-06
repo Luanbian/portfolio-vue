@@ -1,24 +1,26 @@
 <template>
-  <div>
-    <div v-for="hability in habilities" :key="hability.id">
-      <div v-bind:style="{ backgroundColor: hability.middle ? 'var(--square-color)' : 'var(--light-color)'}">
+  <All>
+    <Card v-for="hability in habilities" :key="hability.id">
+      <BoxIcon v-bind:style="{ backgroundColor: hability.middle ? 'var(--square-color)' : 'var(--light-color)'}">
         <img :src='hability.icon'/>
-      </div>
-      <p>
+      </BoxIcon>
+      <Subtitle>
         {{ hability.title }}
-      </p>
+      </Subtitle>
       <div style="display: flex;">
         <img :src='hability.desc.item1'/>
         <img :src='hability.desc.item2'/>
       </div>
       <img :src='hability.desc.item3'/>
-    </div>
-  </div>
+    </Card>
+  </All>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 import '../styles/variables.css'
+import { All, BoxIcon, Card } from '../styles/habilities-styled'
+import { Subtitle } from '../styles/presentation-styled'
 
 export default defineComponent({
   name: 'Card-section',
@@ -59,6 +61,6 @@ export default defineComponent({
       ]
     }
   },
-  components: {}
+  components: { All, BoxIcon, Card, Subtitle }
 })
 </script>
