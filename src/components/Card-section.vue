@@ -2,7 +2,7 @@
   <All>
     <Display>
       <Card v-for="hability in habilities" :key="hability.id">
-        <BoxIcon>
+        <BoxIcon v-bind:style="{ backgroundColor: hability.middle ? 'var(--square-color)' : 'var(--light-color)'}">
           <IconTitle :src='hability.icon'/>
         </BoxIcon>
         <div>
@@ -20,6 +20,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import '../styles/variables.css'
 import { Card, Display, DescImage, IconTitle, BoxIcon, All } from '../styles/habilities-styled'
 
 export default defineComponent({
@@ -39,6 +40,7 @@ export default defineComponent({
         },
         {
           id: 2,
+          middle: true,
           icon: '../../assets/images/database.svg',
           title: 'Backend',
           desc: {

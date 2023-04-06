@@ -9,7 +9,6 @@ export const All = styled.div`
 export const BoxIcon = styled.div`
     width: 220%;
     height: 50%;
-    background-color: red;
 `
 
 export const Principal = styled.div`
