@@ -31,6 +31,7 @@ export const Display = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 2%;
 `
 
 export const DescImage = styled.img`

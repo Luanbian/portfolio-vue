@@ -8,10 +8,10 @@
         <div>
           {{ hability.title }}
         </div>
-        <Display>
+        <div style="display: flex;">
           <DescImage :src='hability.desc.item1'/>
           <DescImage :src='hability.desc.item2'/>
-        </Display>
+        </div>
         <DescImage :src='hability.desc.item3'/>
       </Card>
     </Display>
