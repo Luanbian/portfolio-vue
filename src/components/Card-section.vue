@@ -1,24 +1,26 @@
 <template>
-  <Display>
-    <Principal v-for="hability in habilities" :key="hability.id">
-      <BoxIcon>
-        <IconTitle :src='hability.icon'/>
-      </BoxIcon>
-      <div>
-        {{ hability.title }}
-      </div>
-      <Display>
-        <DescImage :src='hability.desc.item1'/>
-        <DescImage :src='hability.desc.item2'/>
-      </Display>
-      <DescImage :src='hability.desc.item3'/>
-    </Principal>
-  </Display>
+  <All>
+    <Display>
+      <Card v-for="hability in habilities" :key="hability.id">
+        <BoxIcon>
+          <IconTitle :src='hability.icon'/>
+        </BoxIcon>
+        <div>
+          {{ hability.title }}
+        </div>
+        <Display>
+          <DescImage :src='hability.desc.item1'/>
+          <DescImage :src='hability.desc.item2'/>
+        </Display>
+        <DescImage :src='hability.desc.item3'/>
+      </Card>
+    </Display>
+  </All>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { Principal, Display, DescImage, IconTitle, BoxIcon } from '../styles/habilities-styled'
+import { Card, Display, DescImage, IconTitle, BoxIcon, All } from '../styles/habilities-styled'
 
 export default defineComponent({
   name: 'Card-section',
@@ -59,7 +61,7 @@ export default defineComponent({
     }
   },
   components: {
-    Principal, Display, DescImage, IconTitle, BoxIcon
+    Card, Display, DescImage, IconTitle, BoxIcon, All
   }
 })
 </script>
