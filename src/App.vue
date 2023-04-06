@@ -7,7 +7,7 @@
 </template>
 
 <script setup lang="ts">
-import presentationView from './components/presentation-view.vue'
-import habilitiesView from './components/habilities-view.vue'
-import projectsView from './components/projects-view.vue'
+import presentationView from './views/presentation-view.vue'
+import habilitiesView from './views/habilities-view.vue'
+import projectsView from './views/projects-view.vue'
 </script>

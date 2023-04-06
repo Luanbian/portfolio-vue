@@ -16,5 +16,5 @@
 <script setup lang="ts">
 import { Principal, ButtonAbout } from '../styles/habilities-styled'
 import { Bar, Title } from '../styles/presentation-styled'
-import CardSection from './Card-section.vue'
+import CardSection from '../components/Card-section.vue'
 </script>
