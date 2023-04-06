@@ -26,3 +26,17 @@ export const BoxIcon = styled.div`
     display: flex;
     justify-content: center;
 `
+
+export const ButtonAbout = styled.button`
+    background-image: linear-gradient( to right, #a6a6a6, #767676);
+    margin: 5%;
+    color: white;
+    border-radius: 5px;
+    border-color: var(--light-color); 
+    font-size: 1rem;
+    width: 150px;
+    height: 50px;
+    &:hover {
+        cursor: pointer;
+    }
+`
