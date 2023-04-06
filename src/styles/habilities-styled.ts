@@ -12,3 +12,11 @@ export const Display = styled.div`
     justify-content: center;
     align-items: center;
 `
+
+export const DescImage = styled.img`
+
+`
+
+export const IconTitle = styled.img`
+
+`
