@@ -12,6 +12,9 @@ export const Mainn = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
 `
 
 export const Bar = styled.div`
@@ -39,6 +42,9 @@ export const Square = styled.div`
   width: 100%;
   max-width: 100vw;
   height: 170px;
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
 `
 
 export const Phrase = styled.p`
@@ -59,6 +65,9 @@ export const Buttonn = styled.button`
   font-size: 1.0rem;
   &:hover {
     cursor: pointer;
+  }
+  @media (max-width: 500px) {
+    padding: 2%;
   }
 `
 export const BoxAbout = styled.div`
