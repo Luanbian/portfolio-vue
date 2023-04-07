@@ -51,13 +51,12 @@ export const Phrase = styled.p`
 export const Buttonn = styled.button`
   background-image: linear-gradient( to right, var(--to), var(--from));
   margin: 5%;
+  padding: 1%;
   font-family: 'Subtitle';
   color: var(--light-color);
   border-radius: 5px;
   border-color: var(--light-color); 
-  font-size: 1rem;
-  width: 150px;
-  height: 50px;
+  font-size: 1.0rem;
   &:hover {
     cursor: pointer;
   }
