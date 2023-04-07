@@ -20,7 +20,9 @@ export const All = styled.div`
     display: flex;
     justify-content: space-around;
     margin: 3%;
-    box-shadow: 20px 30px 40px rgba(0 0 0 / 50%);
+    @media (min-width: 500px) {
+        box-shadow: 20px 30px 40px rgba(0 0 0 / 50%);
+    }
 `
 
 export const BoxIcon = styled.div`
