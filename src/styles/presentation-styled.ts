@@ -21,6 +21,7 @@ export const Bar = styled.div`
 `
 
 export const Subtitle = styled.h2`
+  font-family: 'Subtitle';
   color: var(--subtitle-color);
   font-size: 1.5rem;
 `
@@ -43,6 +44,7 @@ export const Square = styled.div`
 
 export const Phrase = styled.p`
   color: var(--description-color);
+  font-family: 'Subtitle';
   font-size: 1.2rem;
   margin: 2%;
 `
@@ -50,6 +52,7 @@ export const Phrase = styled.p`
 export const Button = styled.button`
   background-image: linear-gradient( to right, var(--to), var(--from));
   margin: 5%;
+  font-family: 'Subtitle';
   color: var(--light-color);
   border-radius: 5px;
   border-color: var(--light-color); 

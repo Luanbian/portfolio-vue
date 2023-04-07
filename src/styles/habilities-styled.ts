@@ -33,6 +33,7 @@ export const ButtonAbout = styled.button`
     background-image: linear-gradient( to right, #a6a6a6, #767676);
     margin: 5%;
     color: white;
+    font-family: 'Subtitle';
     border-radius: 5px;
     border-color: var(--light-color); 
     font-size: 1rem;

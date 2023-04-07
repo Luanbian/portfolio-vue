@@ -12,6 +12,7 @@ export const Square = styled.div`
 `
 
 export const RefeTitle = styled.h1`
+  font-family: 'Title';
     color: var(--light-color);
     font-size: 3.0rem;
 `
@@ -24,12 +25,14 @@ export const All = styled.div`
 `
 
 export const Refe = styled.p`
+    font-family: 'Subtitle';
     float: right;
     color: var(--subtitle-color);
     margin-bottom: 10%;
 `
 
 export const TextRefe = styled.h2`
+    font-family: 'Subtitle';
     color: var(--light-color);
     z-index: 2;
     margin-left: -15%;

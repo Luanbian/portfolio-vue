@@ -17,6 +17,7 @@ export const GetIn = styled.h1`
 `
 
 export const Phone = styled.p`
+    font-family: 'Subtitle';
     color: var(--light-color);
     font-size: 1.3rem;
     margin-left: 3%;

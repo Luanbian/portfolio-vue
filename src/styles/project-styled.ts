@@ -33,4 +33,5 @@ export const ProjectTitle = styled.h2`
 
 export const ProjectDesc = styled.p`
     text-align: center;
+    font-family: 'Subtitle';
 `
