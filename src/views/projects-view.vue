@@ -1,8 +1,8 @@
 <template>
     <Principal>
-        <Title>
+        <Titlee>
             Projetos recentes
-        </Title>
+        </Titlee>
         <Bar/>
         <ProjectSection/>
     </Principal>
@@ -10,6 +10,6 @@
 
 <script setup lang="ts">
 import { Principal } from '../styles/habilities-styled'
-import { Bar, Title } from '../styles/presentation-styled'
+import { Bar, Titlee } from '../styles/presentation-styled'
 import ProjectSection from '../components/Project-section.vue'
 </script>

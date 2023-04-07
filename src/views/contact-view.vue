@@ -11,9 +11,15 @@
                 <Phone>luanalmeidadev@gmail.com</Phone>
             </Block>
             <BlockIcons>
-                <img src="../../assets/images/linkedin.svg" style="margin-bottom: 2%">
-                <img src="../../assets/images/instagram.svg">
-                <img src="../../assets/images/github.svg">
+                <a href="https://www.linkedin.com/in/luan--almeida/" target="_blank">
+                    <img src="../../assets/images/linkedin.svg" style="margin-bottom: 2%">
+                </a>
+                <a href="https://www.instagram.com/bianchiniluan/" target="_blank">
+                    <img src="../../assets/images/instagram.svg">
+                </a>
+                <a href="https://github.com/Luanbian" target="_blank">
+                    <img src="../../assets/images/github.svg">
+                </a>
             </BlockIcons>
         </Card>
     </Touch>

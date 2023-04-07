@@ -1,22 +1,34 @@
 <template>
-    <Main>
+    <Mainn>
       <div>
-        <Title>Luan Almeida</Title>
+        <Titlee>Luan Almeida</Titlee>
         <Bar/>
         <Subtitle>Desenvolvedor FullStack</Subtitle>
       </div>
       <PerfilPhoto src="../../assets/images/perfil.png" />
-    </Main>
+    </Mainn>
     <Square>
       <Phrase>
         "Conhecimento não é aquilo que você sabe, mas o que você faz com aquilo que sabe."
       </Phrase>
-      <Button>
+      <Buttonn @click="ScrolltoContact">
         Entre em contato
-      </Button>
+      </Buttonn>
     </Square>
 </template>
 
-<script setup lang="ts">
-import { Title, Subtitle, Bar, Square, Button, PerfilPhoto, Main, Phrase } from '../styles/presentation-styled'
+<script lang="ts">
+import { Titlee, Subtitle, Bar, Square, Buttonn, PerfilPhoto, Mainn, Phrase } from '../styles/presentation-styled'
+
+export default {
+  methods: {
+    ScrolltoContact () {
+      window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: 'smooth'
+      })
+    }
+  },
+  components: { Titlee, Subtitle, Bar, Square, Buttonn, PerfilPhoto, Mainn, Phrase }
+}
 </script>

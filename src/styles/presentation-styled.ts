@@ -2,13 +2,13 @@ import styled from "vue3-styled-components";
 import './variables.css';
 import '../../assets/fonts/fonts.css';
 
-export const Title = styled.h1`
+export const Titlee = styled.h1`
   font-family: 'Title';
   color: var(--title-color);
   font-size: 3.0rem;
 `
 
-export const Main = styled.div`
+export const Mainn = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -49,7 +49,7 @@ export const Phrase = styled.p`
   margin: 2%;
 `
 
-export const Button = styled.button`
+export const Buttonn = styled.button`
   background-image: linear-gradient( to right, var(--to), var(--from));
   margin: 5%;
   font-family: 'Subtitle';
