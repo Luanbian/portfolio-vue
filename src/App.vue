@@ -5,6 +5,7 @@
     <projectsView/>
     <referencesView/>
     <aboutView/>
+    <contactView/>
     </div>
 </template>
 
@@ -14,4 +15,5 @@ import habilitiesView from './views/habilities-view.vue'
 import projectsView from './views/projects-view.vue'
 import referencesView from './views/references-view.vue'
 import aboutView from './views/about-view.vue'
+import contactView from './views/contact-view.vue'
 </script>
