@@ -1,7 +1,7 @@
 <template>
     <Principal>
         <Title>
-            Competências
+            Talentos
         </Title>
         <Bar/>
     </Principal>

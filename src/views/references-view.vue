@@ -1,7 +1,7 @@
 <template>
     <Square>
         <RefeTitle>
-            Referências
+            Feedbacks
         </RefeTitle>
         <Bar/>
         <ReferenceSection/>

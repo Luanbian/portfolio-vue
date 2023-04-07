@@ -27,6 +27,7 @@ export const ProjectImage = styled.div`
 `
 
 export const ProjectTitle = styled.h2`
+    font-family: 'Title';
     text-align: center;
 `
 

@@ -1,15 +1,17 @@
 import styled from "vue3-styled-components";
 import './variables.css';
+import '../../assets/fonts/fonts.css';
+
+export const Title = styled.h1`
+  font-family: 'Title';
+  color: var(--title-color);
+  font-size: 3.0rem;
+`
 
 export const Main = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-`
-
-export const Title = styled.h1`
-  color: var(--title-color);
-  font-size: 3.0rem;
 `
 
 export const Bar = styled.div`

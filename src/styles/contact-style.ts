@@ -10,6 +10,7 @@ export const Touch = styled.div`
 `
 
 export const GetIn = styled.h1`
+    font-family: 'Title';
     color: var(--light-color);
     text-align: center;
     margin: 3%;
