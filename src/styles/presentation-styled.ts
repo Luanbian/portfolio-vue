@@ -58,3 +58,9 @@ export const Button = styled.button`
     cursor: pointer;
   }
 `
+export const BoxAbout = styled.div`
+  border: var(--square-color) 1px solid;
+  width: 35%;
+  padding: 2%;
+  box-shadow: 20px 30px 40px rgba(0 0 0 / 50%);
+`
