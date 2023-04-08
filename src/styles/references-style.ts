@@ -22,6 +22,9 @@ export const All = styled.div`
     width: 100%;
     max-width: 100vw;
     justify-content: space-around;
+    @media (max-width: 600px) {
+        flex-direction: column;
+    }
 `
 
 export const Refe = styled.p`
