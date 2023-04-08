@@ -6,6 +6,9 @@ export const Project = styled.div`
     justify-content: center;
     margin: 6%;
     margin-top: 8%;
+    @media (max-width: 850px) {
+        flex-direction: column;
+    }
 `
 
 export const BoxDesc = styled.div`
@@ -17,6 +20,9 @@ export const BoxDesc = styled.div`
     z-index: 2;
     -webkit-filter: drop-shadow(10px 10px 20px rgba(0 0 0 / 50%));
     padding: 1%;
+    @media (max-width: 850px) {
+        margin: 0;
+    }
 `
 
 export const ProjectImage = styled.div`
@@ -24,6 +30,9 @@ export const ProjectImage = styled.div`
     height: 60%;
     -webkit-filter: drop-shadow(-10px 10px 20px rgba(0 0 0 / 50%));
     z-index: 1;
+    @media (max-width: 850px) {
+        -webkit-filter: none;
+    }
 `
 
 export const ProjectTitle = styled.h2`
