@@ -4,7 +4,7 @@
         <Card>
             <Block>
                 <img src="../../assets/images/phone.svg" />
-                <Phone>(15)98180-6866</Phone>
+                <Phone>(15)98180.6866</Phone>
             </Block>
             <Block>
                 <img src="../../assets/images/email.svg" />
