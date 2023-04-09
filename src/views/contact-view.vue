@@ -12,13 +12,13 @@
             </Block>
             <BlockIcons>
                 <a href="https://www.linkedin.com/in/luan--almeida/" target="_blank">
-                    <img src="../../assets/images/linkedin.svg" style="margin-bottom: 2%">
+                    <img src="../../assets/images/linkedin.svg">
                 </a>
                 <a href="https://www.instagram.com/bianchiniluan/" target="_blank">
-                    <img src="../../assets/images/instagram.svg">
+                    <img src="../../assets/images/instagram.svg" style="margin-top: 7%; margin-left: 6%;">
                 </a>
                 <a href="https://github.com/Luanbian" target="_blank">
-                    <img src="../../assets/images/github.svg">
+                    <img src="../../assets/images/github.svg" style="margin-top: 7%;">
                 </a>
             </BlockIcons>
         </Card>
