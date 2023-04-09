@@ -1,6 +1,6 @@
 import styled from "vue3-styled-components";
 import './variables.css';
-import '../../assets/fonts/fonts.css';
+import '/public/fonts/fonts.css';
 
 export const Titlee = styled.h1`
   font-family: 'Title';

@@ -21,13 +21,13 @@ export default defineComponent({
       projects: [
         {
           id: 1,
-          image: '../../assets/images/bluecore.jpg',
+          image: '/images/bluecore.jpg',
           text: 'Desenvolvedor fullstack na Bluecore.it',
           description: 'Responsável pela criação de softwares modernos e robustos usando Javascript e metodologias ágeis'
         },
         {
           id: 2,
-          image: '../../assets/images/portal.png',
+          image: '/images/portal.png',
           text: 'Desenvolvedor javascript no Portal do conhecimento',
           description: 'Responsável por criar atividades online com javascript como uma solução para as escolas durante a pandemia'
         }

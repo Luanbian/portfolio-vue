@@ -29,33 +29,33 @@ export default defineComponent({
       habilities: [
         {
           id: 1,
-          icon: '../../assets/images/monitor.svg',
+          icon: '/images/monitor.svg',
           title: 'Frontend',
           desc: {
-            item1: '../../assets/images/vue-icon.svg',
-            item2: '../../assets/images/react-icon.svg',
-            item3: '../../assets/images/javascript-icon.svg'
+            item1: '/images/vue-icon.svg',
+            item2: '/images/react-icon.svg',
+            item3: '/images/javascript-icon.svg'
           }
         },
         {
           id: 2,
           middle: true,
-          icon: '../../assets/images/database.svg',
+          icon: '/images/database.svg',
           title: 'Backend',
           desc: {
-            item1: '../../assets/images/node-icon.svg',
-            item2: '../../assets/images/mysql-icon.svg',
-            item3: '../../assets/images/typescript-icon.svg'
+            item1: '/images/node-icon.svg',
+            item2: '/images/mysql-icon.svg',
+            item3: '/images/typescript-icon.svg'
           }
         },
         {
           id: 3,
-          icon: '../../assets/images/code.svg',
+          icon: '/images/code.svg',
           title: 'Extras  ',
           desc: {
-            item1: '../../assets/images/jest-icon.svg',
-            item2: '../../assets/images/git-icon.svg',
-            item3: '../../assets/images/mongo-icon.svg'
+            item1: '/images/jest-icon.svg',
+            item2: '/images/git-icon.svg',
+            item3: '/images/mongo-icon.svg'
           }
         }
       ]

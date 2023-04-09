@@ -6,7 +6,7 @@
           <Bar/>
           <Subtitle>Desenvolvedor FullStack</Subtitle>
         </div>
-        <PerfilPhoto src="../../assets/images/perfil.png" />
+        <PerfilPhoto src="/images/perfil.png" />
       </Present>
     </Mainn>
     <Square>

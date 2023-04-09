@@ -3,22 +3,22 @@
         <GetIn>Entre em contato!</GetIn>
         <Card>
             <Block>
-                <img src="../../assets/images/phone.svg" style="width: 70px;"/>
+                <img src="/images/phone.svg" style="width: 70px;"/>
                 <Phone>(15)98180.6866</Phone>
             </Block>
             <Block>
-                <img src="../../assets/images/email.svg" style="width: 70px;"/>
+                <img src="/images/email.svg" style="width: 70px;"/>
                 <Phone>luanalmeidadev@gmail.com</Phone>
             </Block>
             <BlockIcons>
                 <a href="https://www.linkedin.com/in/luan--almeida/" target="_blank">
-                    <img src="../../assets/images/linkedin.svg">
+                    <img src="/images/linkedin.svg">
                 </a>
                 <a href="https://www.instagram.com/bianchiniluan/" target="_blank">
-                    <img src="../../assets/images/instagram.svg" style="margin-top: 7%; margin-left: 6%;">
+                    <img src="/images/instagram.svg" style="margin-top: 7%; margin-left: 6%;">
                 </a>
                 <a href="https://github.com/Luanbian" target="_blank">
-                    <img src="../../assets/images/github.svg" style="margin-top: 7%;">
+                    <img src="/images/github.svg" style="margin-top: 7%;">
                 </a>
             </BlockIcons>
         </Card>

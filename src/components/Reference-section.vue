@@ -23,13 +23,13 @@ export default defineComponent({
       references: [
         {
           id: 1,
-          image: '../../assets/images/double-quote.svg',
+          image: '/images/double-quote.svg',
           text: 'Nosso guru Luan, em seu último dia de trabalho colaborou com os projetos desde o início dos trabalhos. Hoje se despede dos alunos para partir para novos desafios em uma carreira de tecnologia. Obrigado pela ajuda Luan e sucesso!!!',
           refe: 'Alexsandro Sunaga, Coordenador de Tecnologias Educacionais'
         },
         {
           id: 2,
-          image: '../../assets/images/double-quote.svg',
+          image: '/images/double-quote.svg',
           text: 'Nosso guru Luan, em seu último dia de trabalho colaborou com os projetos desde o início dos trabalhos. Hoje se despede dos alunos para partir para novos desafios em uma carreira de tecnologia. Obrigado pela ajuda Luan e sucesso!!!',
           refe: 'Alexsandro Sunaga, Coordenador de Tecnologias Educacionais'
         }
