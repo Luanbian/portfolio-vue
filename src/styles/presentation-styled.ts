@@ -80,7 +80,7 @@ export const Buttonn = styled.button`
 `
 export const BoxAbout = styled.div`
   border: var(--square-color) 1px solid;
-  width: 100%;
+  width: 35%;
   padding: 2%;
   box-shadow: 20px 30px 40px rgba(0 0 0 / 50%);
   @media (max-width: 1020px) {
