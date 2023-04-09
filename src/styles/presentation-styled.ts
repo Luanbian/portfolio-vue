@@ -13,7 +13,7 @@ export const Mainn = styled.div`
   align-items: center;
   justify-content: space-around;
   @media (max-width: 500px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 `
 
@@ -75,4 +75,7 @@ export const BoxAbout = styled.div`
   width: 35%;
   padding: 2%;
   box-shadow: 20px 30px 40px rgba(0 0 0 / 50%);
+  @media (max-width: 600px) {
+    box-shadow: none; 
+  }
 `

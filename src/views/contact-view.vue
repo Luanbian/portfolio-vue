@@ -3,11 +3,11 @@
         <GetIn>Entre em contato!</GetIn>
         <Card>
             <Block>
-                <img src="../../assets/images/phone.svg" />
+                <img src="../../assets/images/phone.svg" style="width: 70px;"/>
                 <Phone>(15)98180.6866</Phone>
             </Block>
             <Block>
-                <img src="../../assets/images/email.svg" />
+                <img src="../../assets/images/email.svg" style="width: 70px;"/>
                 <Phone>luanalmeidadev@gmail.com</Phone>
             </Block>
             <BlockIcons>

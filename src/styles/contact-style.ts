@@ -27,8 +27,11 @@ export const Card = styled.div`
     display: flex;
     justify-content: space-between;
     margin: 5%;
-    @media (max-width: 700px) {
+    @media (max-width: 750px) {
         flex-direction: column;
+    }
+    @media (max-width: 450px) {
+        align-items: center;
     }
 `
 
@@ -36,19 +39,20 @@ export const BlockIcons = styled.div`
     display: flex;
     max-width: 100vw;
     margin-left:2%;
-    @media (max-width: 700px) {
+    @media (max-width: 750px) {
         justify-content: center;
     }
 `
 
 export const Block = styled.div`
     display: flex;
-    width: 100%;
     @media(max-width: 950px) {
         flex-direction: column;
-        width: 10%;
     }
-    @media(max-width: 700px) {
+    @media(max-width: 750px) {
         flex-direction: row;
+    }
+    @media(max-width: 450px) {
+        flex-direction: column;
     }
 `
