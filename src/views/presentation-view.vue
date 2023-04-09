@@ -1,11 +1,13 @@
 <template>
     <Mainn>
-      <div>
-        <Titlee>Luan Almeida</Titlee>
-        <Bar/>
-        <Subtitle>Desenvolvedor FullStack</Subtitle>
-      </div>
-      <PerfilPhoto src="../../assets/images/perfil.png" />
+      <Present>
+        <div>
+          <Titlee>Luan Almeida</Titlee>
+          <Bar/>
+          <Subtitle>Desenvolvedor FullStack</Subtitle>
+        </div>
+        <PerfilPhoto src="../../assets/images/perfil.png" />
+      </Present>
     </Mainn>
     <Square>
       <Phrase>
@@ -18,7 +20,7 @@
 </template>
 
 <script lang="ts">
-import { Titlee, Subtitle, Bar, Square, Buttonn, PerfilPhoto, Mainn, Phrase } from '../styles/presentation-styled'
+import { Titlee, Subtitle, Bar, Square, Buttonn, PerfilPhoto, Mainn, Phrase, Present } from '../styles/presentation-styled'
 
 export default {
   methods: {
@@ -29,6 +31,6 @@ export default {
       })
     }
   },
-  components: { Titlee, Subtitle, Bar, Square, Buttonn, PerfilPhoto, Mainn, Phrase }
+  components: { Titlee, Subtitle, Bar, Square, Buttonn, PerfilPhoto, Mainn, Phrase, Present }
 }
 </script>

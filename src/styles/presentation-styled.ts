@@ -17,6 +17,14 @@ export const Mainn = styled.div`
   }
 `
 
+export const Present = styled.div`
+  display: flex;
+  align-items: center;
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
+`
+
 export const Bar = styled.div`
   background-image: linear-gradient( to right, var(--to), var(--from));
   width: 200px;
