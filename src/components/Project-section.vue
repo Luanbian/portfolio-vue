@@ -1,7 +1,7 @@
 <template>
     <Project v-for="project in projects" :key="project.id">
         <ProjectImage>
-            <img :src="project.image"/>
+            <img :src="project.image" style="width: 100%;"/>
         </ProjectImage>
         <BoxDesc>
             <ProjectTitle>{{ project.text }}</ProjectTitle>

@@ -26,8 +26,6 @@ export const BoxDesc = styled.div`
 `
 
 export const ProjectImage = styled.div`
-    width: 60%;
-    height: 60%;
     -webkit-filter: drop-shadow(-10px 10px 20px rgba(0 0 0 / 50%));
     z-index: 1;
     @media (max-width: 850px) {
