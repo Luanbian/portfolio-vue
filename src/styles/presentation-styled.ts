@@ -12,7 +12,7 @@ export const Mainn = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  @media (max-width: 500px) {
+  @media (max-width: 700px) {
     flex-direction: column-reverse;
   }
 `
@@ -80,10 +80,13 @@ export const Buttonn = styled.button`
 `
 export const BoxAbout = styled.div`
   border: var(--square-color) 1px solid;
-  width: 35%;
+  width: 100%;
   padding: 2%;
   box-shadow: 20px 30px 40px rgba(0 0 0 / 50%);
-  @media (max-width: 600px) {
+  @media (max-width: 1020px) {
+    width: 80%;
+  }
+  @media (max-width: 700px) {
     box-shadow: none; 
   }
 `
