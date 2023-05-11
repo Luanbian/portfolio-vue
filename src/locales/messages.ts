@@ -13,6 +13,14 @@ export const messages = {
       projectTwo: {
         projectTwoText: 'Desenvolvedor javascript no Portal do conhecimento',
         projectTwoDesc: 'Responsável por criar atividades online com javascript como uma solução para as escolas durante a pandemia'
+      },
+      referenceOne: {
+        referenceOneText: 'Nosso guru Luan, em seu último dia de trabalho colaborou com os projetos desde o início dos trabalhos. Hoje se despede dos alunos para partir para novos desafios em uma carreira de tecnologia. Obrigado pela ajuda Luan e sucesso!!!',
+        referenceOneRefe: 'Alexsandro Sunaga, Coordenador de Tecnologias Educacionais'
+      },
+      referenceTwo: {
+        referenceTwoText: 'Nosso guru Luan, em seu último dia de trabalho colaborou com os projetos desde o início dos trabalhos. Hoje se despede dos alunos para partir para novos desafios em uma carreira de tecnologia. Obrigado pela ajuda Luan e sucesso!!!',
+        referenceTwoRefe: 'Alexsandro Sunaga, Coordenador de Tecnologias Educacionais'
       }
     },
   },
@@ -30,6 +38,14 @@ export const messages = {
       projectTwo: {
         projectTwoText: 'Javascript developer at Portal do conhecimento',
         projectTwoDesc: 'Responsible for creating online activities with Javascript as a solution for schools during the pandemic.'
+      },
+      referenceOne: {
+        referenceOneText: 'Our guru Luan, on his last day of work, collaborated with the projects from the beginning of the work. Today he says goodbye to the students to embark on new challenges in a career in technology. Thank you for your help, Luan, and good luck!!',
+        referenceOneRefe: 'Alexsandro Sunaga, Coordinator of Educational Technologies.'
+      },
+      referenceTwo: {
+        referenceTwoText: 'Our guru Luan, on his last day of work, collaborated with the projects from the beginning of the work. Today he says goodbye to the students to embark on new challenges in a career in technology. Thank you for your help, Luan, and good luck!!',
+        referenceTwoRefe: 'Alexsandro Sunaga, Coordinator of Educational Technologies.'
       }
     },
   },

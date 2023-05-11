@@ -5,9 +5,9 @@
         <div style="z-index: 1;">
           <img :src="reference.image" />
         </div>
-        <TextRefe>{{ reference.text }}</TextRefe>
+        <TextRefe>{{ $t(reference.text) }}</TextRefe>
       </div>
-      <Refe>{{ reference.refe }}</Refe>
+      <Refe>{{ $t(reference.refe) }}</Refe>
     </SquareRefe>
   </All>
 </template>
@@ -24,14 +24,14 @@ export default defineComponent({
         {
           id: 1,
           image: '/images/double-quote.svg',
-          text: 'Nosso guru Luan, em seu último dia de trabalho colaborou com os projetos desde o início dos trabalhos. Hoje se despede dos alunos para partir para novos desafios em uma carreira de tecnologia. Obrigado pela ajuda Luan e sucesso!!!',
-          refe: 'Alexsandro Sunaga, Coordenador de Tecnologias Educacionais'
+          text: 'message.referenceOne.referenceOneText',
+          refe: 'message.referenceOne.referenceOneRefe'
         },
         {
           id: 2,
           image: '/images/double-quote.svg',
-          text: 'Nosso guru Luan, em seu último dia de trabalho colaborou com os projetos desde o início dos trabalhos. Hoje se despede dos alunos para partir para novos desafios em uma carreira de tecnologia. Obrigado pela ajuda Luan e sucesso!!!',
-          refe: 'Alexsandro Sunaga, Coordenador de Tecnologias Educacionais'
+          text: 'message.referenceTwo.referenceTwoText',
+          refe: 'message.referenceTwo.referenceTwoRefe'
         }
       ]
     }
