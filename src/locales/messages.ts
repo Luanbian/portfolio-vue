@@ -21,7 +21,9 @@ export const messages = {
       referenceTwo: {
         referenceTwoText: 'Nosso guru Luan, em seu último dia de trabalho colaborou com os projetos desde o início dos trabalhos. Hoje se despede dos alunos para partir para novos desafios em uma carreira de tecnologia. Obrigado pela ajuda Luan e sucesso!!!',
         referenceTwoRefe: 'Alexsandro Sunaga, Coordenador de Tecnologias Educacionais'
-      }
+      },
+      About: 'Sobre mim',
+      AboutText: 'Eu vejo a programação como um transformador de realidades, programador Javascript com mais de 2 anos de experiência, e agora passando para o Typescript, muita bagagem em React.js e Node.js. Transformar uma tela em branco em um site funcional que pode gerar renda para uma empresa e solucionar diversos problemas é uma arte que só programadores conseguem produzir.'
     },
   },
   en: {
@@ -46,7 +48,9 @@ export const messages = {
       referenceTwo: {
         referenceTwoText: 'Our guru Luan, on his last day of work, collaborated with the projects from the beginning of the work. Today he says goodbye to the students to embark on new challenges in a career in technology. Thank you for your help, Luan, and good luck!!',
         referenceTwoRefe: 'Alexsandro Sunaga, Coordinator of Educational Technologies.'
-      }
+      },
+      About: 'About me',
+      AboutText: 'I see programming as a reality transformer. A Javascript programmer with over 2 years of experience and now moving to Typescript, with a lot of knowledge in React.js and Node.js. Turning a blank screen into a functional website that can generate revenue for a company and solve various problems is an art that only programmers can produce.'
     },
   },
 };
