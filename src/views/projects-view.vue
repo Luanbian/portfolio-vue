@@ -1,7 +1,7 @@
 <template>
     <Principal>
         <Titlee>
-            Projetos recentes
+            {{ $t('message.projectTitle') }}
         </Titlee>
         <Bar/>
         <ProjectSection/>

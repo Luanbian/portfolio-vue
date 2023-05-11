@@ -1,13 +1,13 @@
 <template>
-    <Project v-for="project in projects" :key="project.id">
-        <ProjectImage>
-            <img :src="project.image" style="width: 100%;"/>
-        </ProjectImage>
-        <BoxDesc>
-            <ProjectTitle>{{ project.text }}</ProjectTitle>
-            <ProjectDesc>{{ project.description }}</ProjectDesc>
-        </BoxDesc>
-    </Project>
+  <Project v-for="project in projects" :key="project.id">
+      <ProjectImage>
+          <img :src="project.image" style="width: 100%;"/>
+      </ProjectImage>
+      <BoxDesc>
+          <ProjectTitle>{{ $t(project.text) }}</ProjectTitle>
+          <ProjectDesc>{{ $t(project.description) }}</ProjectDesc>
+      </BoxDesc>
+  </Project>
 </template>
 
 <script lang="ts">
@@ -22,14 +22,14 @@ export default defineComponent({
         {
           id: 1,
           image: '/images/bluecore.jpg',
-          text: 'Desenvolvedor fullstack na Bluecore.it',
-          description: 'Responsável pela criação de softwares modernos e robustos usando Javascript e metodologias ágeis'
+          text: 'message.projectOne.projectOneText',
+          description: 'message.projectOne.projectOneDesc'
         },
         {
           id: 2,
           image: '/images/portal.png',
-          text: 'Desenvolvedor javascript no Portal do conhecimento',
-          description: 'Responsável por criar atividades online com javascript como uma solução para as escolas durante a pandemia'
+          text: 'message.projectTwo.projectTwoText',
+          description: 'message.projectTwo.projectTwoDesc'
         }
       ]
     }
