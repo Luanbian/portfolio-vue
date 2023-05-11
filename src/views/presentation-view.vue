@@ -11,7 +11,7 @@
     </Mainn>
     <Square>
       <Phrase>
-        "Conhecimento não é aquilo que você sabe, mas o que você faz com aquilo que sabe."
+        {{ $t('message.presentationSubtitle') }}
       </Phrase>
       <Buttonn @click="ScrolltoContact">
         Entre em contato
