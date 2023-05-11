@@ -1,14 +1,14 @@
 <template>
     <Principal>
         <Titlee>
-            Talentos
+            {{ $t('message.talents') }}
         </Titlee>
         <Bar/>
     </Principal>
     <CardSection/>
     <div style="display: flex; justify-content: center;">
         <ButtonAbout @click="scrolltoAbout">
-            Leia sobre mim
+            {{ $t('message.readAbout') }}
         </ButtonAbout>
     </div>
 </template>
