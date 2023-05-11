@@ -1,5 +1,6 @@
 <template>
   <div>
+    <LocaleSwitcher/>
     <presentationView/>
     <habilitiesView/>
     <projectsView/>
@@ -16,4 +17,5 @@ import projectsView from './views/projects-view.vue'
 import referencesView from './views/references-view.vue'
 import aboutView from './views/about-view.vue'
 import contactView from './views/contact-view.vue'
+import LocaleSwitcher from './components/LocaleSwitcher.vue'
 </script>
