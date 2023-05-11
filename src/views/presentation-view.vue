@@ -14,7 +14,7 @@
         {{ $t('message.presentationSubtitle') }}
       </Phrase>
       <Buttonn @click="ScrolltoContact">
-        Entre em contato
+        {{ $t('message.touch') }}
       </Buttonn>
     </Square>
 </template>
