@@ -1,6 +1,6 @@
 <template>
     <Touch>
-        <GetIn>Entre em contato!</GetIn>
+        <GetIn>{{ $t('message.touch') }}!</GetIn>
         <Card>
             <Block>
                 <img src="/images/phone.svg" style="width: 70px;"/>
