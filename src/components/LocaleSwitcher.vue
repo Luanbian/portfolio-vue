@@ -34,6 +34,9 @@ export default {
   transition: background-color 0.3s;
   font-size: 14px;
 }
+.toggle-switch:hover {
+  cursor: pointer;
+}
 
 .toggle-switch-label {
   position: absolute;
