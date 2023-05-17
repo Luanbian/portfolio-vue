@@ -19,8 +19,8 @@ export const messages = {
         referenceOneRefe: 'Alexsandro Sunaga, Coordenador de Tecnologias Educacionais'
       },
       referenceTwo: {
-        referenceTwoText: 'Nosso guru Luan, em seu último dia de trabalho colaborou com os projetos desde o início dos trabalhos. Hoje se despede dos alunos para partir para novos desafios em uma carreira de tecnologia. Obrigado pela ajuda Luan e sucesso!!!',
-        referenceTwoRefe: 'Alexsandro Sunaga, Coordenador de Tecnologias Educacionais'
+        referenceTwoText: 'O Luan é um grande profissional que está sempre disposto a aprender, trabalha muito bem em equipe e é muito engajado na cultura da empresa e nos projetos em que atua. Tive o prazer de trabalhar com ele dentro da Bluecore.it e ver de perto sua dedicação e crescimento profissional. Durante o tempo que esteve na empresa se mostrou aberto a aprender novas tecnologias das quais não eram de seu conhecimento.',
+        referenceTwoRefe: 'Alex Coelho, Tech Lead da Bluecore.it'
       },
       About: 'Sobre mim',
       AboutText: 'Eu vejo a programação como um transformador de realidades, programador Javascript com mais de 2 anos de experiência, e agora passando para o Typescript, muita bagagem em React.js e Node.js. Transformar uma tela em branco em um site funcional que pode gerar renda para uma empresa e solucionar diversos problemas é uma arte que só programadores conseguem produzir.'
@@ -46,8 +46,8 @@ export const messages = {
         referenceOneRefe: 'Alexsandro Sunaga, Coordinator of Educational Technologies.'
       },
       referenceTwo: {
-        referenceTwoText: 'Our guru Luan, on his last day of work, collaborated with the projects from the beginning of the work. Today he says goodbye to the students to embark on new challenges in a career in technology. Thank you for your help, Luan, and good luck!!',
-        referenceTwoRefe: 'Alexsandro Sunaga, Coordinator of Educational Technologies.'
+        referenceTwoText: 'Luan is a great professional who is always willing to learn. He works very well in a team and is highly engaged in the company culture and the projects he is involved in. I had the pleasure of working with him at Bluecore.it and witnessing his dedication and professional growth up close. During his time at the company, he demonstrated an openness to learning new technologies that were outside his realm of expertise.',
+        referenceTwoRefe: 'Alex Coelho, Tech Lead at Bluecore.it'
       },
       About: 'About me',
       AboutText: 'I see programming as a reality transformer. A Javascript programmer with over 2 years of experience and now moving to Typescript, with a lot of knowledge in React.js and Node.js. Turning a blank screen into a functional website that can generate revenue for a company and solve various problems is an art that only programmers can produce.'
