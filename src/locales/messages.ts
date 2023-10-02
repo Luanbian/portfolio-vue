@@ -2,6 +2,7 @@ export const messages = {
   ptbr: {
     message: {
       presentationSubtitle: '"Conhecimento não é aquilo que você sabe, mas o que você faz com aquilo que sabe."',
+      presentation: "Desenvolvedor fullstack",
       touch: 'Entre em contato',
       talents: 'Talentos',
       readAbout: 'Leia sobre mim',
@@ -13,6 +14,10 @@ export const messages = {
       projectTwo: {
         projectTwoText: 'Desenvolvedor javascript no Portal do conhecimento',
         projectTwoDesc: 'Responsável por criar atividades online com javascript como uma solução para as escolas durante a pandemia'
+      },
+      projectThree: {
+        projectThreeText: 'Desenvolvedor fullstack na abmax educacional',
+        projectThreeDesc: 'Responsável por desenvolver uma automação de cobranças e um dashboard financeiro para gestão empresarial'
       },
       referenceOne: {
         referenceOneText: 'Nosso guru Luan, em seu último dia de trabalho colaborou com os projetos desde o início dos trabalhos. Hoje se despede dos alunos para partir para novos desafios em uma carreira de tecnologia. Obrigado pela ajuda Luan e sucesso!!!',
@@ -29,6 +34,7 @@ export const messages = {
   en: {
     message: {
       presentationSubtitle: '"Knowledge is not what you know, but what you do with what you know."',
+      presentation: "Fullstack developer",
       touch: 'Get in touch',
       talents: 'Skills',
       readAbout: 'Read about me',
@@ -40,6 +46,10 @@ export const messages = {
       projectTwo: {
         projectTwoText: 'Javascript developer at Portal do conhecimento',
         projectTwoDesc: 'Responsible for creating online activities with Javascript as a solution for schools during the pandemic.'
+      },
+      projectThree: {
+        projectThreeText: 'Fullstack developer at abmax educacional',
+        projectThreeDesc: 'Responsible for developing an automation of billing and a financial dashboard for business management.Responsible for developing an automation of billing and a financial dashboard for business management.'
       },
       referenceOne: {
         referenceOneText: 'Our guru Luan, on his last day of work, collaborated with the projects from the beginning of the work. Today he says goodbye to the students to embark on new challenges in a career in technology. Thank you for your help, Luan, and good luck!!',

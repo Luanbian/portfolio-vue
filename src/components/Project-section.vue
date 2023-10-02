@@ -30,6 +30,12 @@ export default defineComponent({
           image: '/images/portal.png',
           text: 'message.projectTwo.projectTwoText',
           description: 'message.projectTwo.projectTwoDesc'
+        },
+        {
+          id: 3,
+          image: '/images/abmax.jpg',
+          text: 'message.projectThree.projectThreeText',
+          description: 'message.projectThree.projectThreeDesc'
         }
       ]
     }

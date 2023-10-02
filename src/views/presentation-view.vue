@@ -4,7 +4,7 @@
         <div>
           <Titlee>Luan Almeida</Titlee>
           <Bar/>
-          <Subtitle>Desenvolvedor FullStack</Subtitle>
+          <Subtitle>{{ $t('message.presentation') }}</Subtitle>
         </div>
         <PerfilPhoto src="/images/perfil.png" />
       </Present>
