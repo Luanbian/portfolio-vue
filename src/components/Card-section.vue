@@ -12,6 +12,10 @@
         <img :src='hability.desc.item2'/>
       </div>
       <img :src='hability.desc.item3'/>
+      <img :src='hability.desc.item4'/>
+      <img :src='hability.desc.item5'/>
+      <img :src='hability.desc.item6'/>
+      <img :src='hability.desc.item7'/>
     </Card>
   </All>
 </template>
@@ -45,7 +49,11 @@ export default defineComponent({
           desc: {
             item1: '/images/node-icon.svg',
             item2: '/images/mysql-icon.svg',
-            item3: '/images/typescript-icon.svg'
+            item3: '/images/typescript-icon.svg',
+            item4: '/images/java-icon.svg',
+            item5: '/images/spring-icon.svg',
+            item6: '/images/csharp-icon.svg',
+            item7: '/images/dot-net-icon.svg'
           }
         },
         {
@@ -55,7 +63,8 @@ export default defineComponent({
           desc: {
             item1: '/images/jest-icon.svg',
             item2: '/images/git-icon.svg',
-            item3: '/images/mongo-icon.svg'
+            item3: '/images/mongo-icon.svg',
+            item4: '/images/graphql-icon.svg'
           }
         }
       ]
