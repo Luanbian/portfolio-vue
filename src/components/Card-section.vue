@@ -10,12 +10,13 @@
       <div style="display: flex;">
         <img :src='hability.desc.item1'/>
         <img :src='hability.desc.item2'/>
+        <img :src='hability.desc.item3'/>
+        <img :src='hability.desc.item4'/>
       </div>
-      <img :src='hability.desc.item3'/>
-      <img :src='hability.desc.item4'/>
-      <img :src='hability.desc.item5'/>
-      <img :src='hability.desc.item6'/>
-      <img :src='hability.desc.item7'/>
+      <div style="display: flex;">
+        <img :src='hability.desc.item5'/>
+        <img :src='hability.desc.item6'/>
+      </div>
     </Card>
   </All>
 </template>
@@ -48,12 +49,11 @@ export default defineComponent({
           title: 'Backend',
           desc: {
             item1: '/images/node-icon.svg',
-            item2: '/images/mysql-icon.svg',
-            item3: '/images/typescript-icon.svg',
-            item4: '/images/java-icon.svg',
-            item5: '/images/spring-icon.svg',
-            item6: '/images/csharp-icon.svg',
-            item7: '/images/dot-net-icon.svg'
+            item2: '/images/typescript-icon.svg',
+            item3: '/images/java-icon.svg',
+            item4: '/images/spring-icon.svg',
+            item5: '/images/csharp-icon.svg',
+            item6: '/images/dot-net-icon.svg'
           }
         },
         {
@@ -64,7 +64,8 @@ export default defineComponent({
             item1: '/images/jest-icon.svg',
             item2: '/images/git-icon.svg',
             item3: '/images/mongo-icon.svg',
-            item4: '/images/graphql-icon.svg'
+            item4: '/images/graphql-icon.svg',
+            item5: '/images/mysql-icon.svg'
           }
         }
       ]
