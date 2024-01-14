@@ -1,30 +1,32 @@
 <template>
   <All>
-    <Card v-for="hability in habilities" :key="hability.id">
-      <BoxIcon v-bind:style="{ backgroundColor: hability.middle ? 'var(--square-color)' : 'var(--light-color)'}">
-        <img :src='hability.icon'/>
-      </BoxIcon>
-      <Subtitle>
-        {{ hability.title }}
-      </Subtitle>
-      <div style="display: flex;">
-        <img :src='hability.desc.item1'/>
-        <img :src='hability.desc.item2'/>
-        <img :src='hability.desc.item3'/>
-        <img :src='hability.desc.item4'/>
-      </div>
-      <div style="display: flex;">
-        <img :src='hability.desc.item5'/>
-        <img :src='hability.desc.item6'/>
-      </div>
-    </Card>
+    <Space>
+      <Card v-for="hability in habilities" :key="hability.id">
+        <BoxIcon v-bind:style="{ backgroundColor: hability.middle ? 'var(--square-color)' : 'var(--light-color)'}">
+          <img :src='hability.icon'/>
+        </BoxIcon>
+        <Subtitle>
+          {{ hability.title }}
+        </Subtitle>
+        <div style="display: flex;">
+          <img :src='hability.desc.item1'/>
+          <img :src='hability.desc.item2'/>
+          <img :src='hability.desc.item3'/>
+          <img :src='hability.desc.item4'/>
+        </div>
+        <div style="display: flex;">
+          <img :src='hability.desc.item5'/>
+          <img :src='hability.desc.item6'/>
+        </div>
+      </Card>
+    </Space>
   </All>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 import '../styles/variables.css'
-import { All, BoxIcon, Card } from '../styles/habilities-styled'
+import { All, BoxIcon, Card, Space } from '../styles/habilities-styled'
 import { Subtitle } from '../styles/presentation-styled'
 
 export default defineComponent({
@@ -72,6 +74,6 @@ export default defineComponent({
       ]
     }
   },
-  components: { All, BoxIcon, Card, Subtitle }
+  components: { All, BoxIcon, Card, Subtitle, Space }
 })
 </script>

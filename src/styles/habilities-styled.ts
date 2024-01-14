@@ -8,6 +8,14 @@ export const Principal = styled.div`
     align-items: center;
 `
 
+export const Space = styled.div`
+    display: flex;
+    width: 100%;
+    @media (max-width: 770px) {
+        flex-direction: column;
+    }
+`
+
 export const Card = styled.div`
     display: flex;
     flex-direction: column;
