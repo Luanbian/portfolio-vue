@@ -39,7 +39,8 @@ export default defineComponent({
           desc: {
             item1: '/images/vue-icon.svg',
             item2: '/images/react-icon.svg',
-            item3: '/images/javascript-icon.svg'
+            item3: '/images/javascript-icon.svg',
+            item4: '/images/angular-icon.svg'
           }
         },
         {
@@ -48,8 +49,8 @@ export default defineComponent({
           icon: '/images/database.svg',
           title: 'Backend',
           desc: {
-            item1: '/images/node-icon.svg',
-            item2: '/images/typescript-icon.svg',
+            item1: '/images/typescript-icon.svg',
+            item2: '/images/node-icon.svg',
             item3: '/images/java-icon.svg',
             item4: '/images/spring-icon.svg',
             item5: '/images/csharp-icon.svg',
