@@ -39,10 +39,11 @@ export default defineComponent({
           icon: '/images/monitor.svg',
           title: 'Frontend',
           desc: {
-            item1: '/images/vue-icon.svg',
             item2: '/images/react-icon.svg',
             item3: '/images/javascript-icon.svg',
-            item4: '/images/angular-icon.svg'
+            item4: '/images/typescript-icon.svg',
+            item5: '/images/redux-icon.svg',
+            item6: '/images/nextjs-icon.svg',
           }
         },
         {
@@ -55,8 +56,7 @@ export default defineComponent({
             item2: '/images/node-icon.svg',
             item3: '/images/java-icon.svg',
             item4: '/images/spring-icon.svg',
-            item5: '/images/csharp-icon.svg',
-            item6: '/images/dot-net-icon.svg'
+            item5: '/images/rust-icon.svg',
           }
         },
         {
@@ -68,7 +68,7 @@ export default defineComponent({
             item2: '/images/git-icon.svg',
             item3: '/images/mongo-icon.svg',
             item4: '/images/graphql-icon.svg',
-            item5: '/images/mysql-icon.svg'
+            item5: '/images/postgresql-icon.svg'
           }
         }
       ]
