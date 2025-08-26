@@ -54,8 +54,8 @@ export default defineComponent({
           desc: {
             item1: '/images/typescript-icon.svg',
             item2: '/images/node-icon.svg',
-            item3: '/images/java-icon.svg',
-            item4: '/images/spring-icon.svg',
+            item3: '/images/csharp-icon.svg',
+            item4: '/images/dotnet-icon.svg',
             item5: '/images/rust-icon.svg',
           }
         },
