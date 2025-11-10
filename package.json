@@ -13,6 +13,9 @@
     "vue-i18n": "^9.2.2",
     "vue3-styled-components": "^1.2.1"
   },
+  "engines": {
+    "node": "^22.x"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "@vitejs/plugin-vue": "^4.1.0",
