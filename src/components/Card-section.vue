@@ -25,6 +25,7 @@
           <img :src="hability.desc.item6" />
           <img :src="hability.desc.item7" />
           <img :src="hability.desc.item8" />
+          <img :src="hability.desc.item9" />
         </div>
       </Card>
     </Space>
@@ -68,6 +69,7 @@ export default defineComponent({
             item6: "/images/spring-icon.svg",
             item7: "/images/java-icon.svg",
             item8: "/images/kotlin-icon.svg",
+            item9: "/images/go-icon.svg",
           },
         },
         {
