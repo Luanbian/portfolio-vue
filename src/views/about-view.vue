@@ -1,5 +1,5 @@
 <template>
-    <Principal>
+    <Principal id="about">
         <Titlee>
             {{ $t('message.About') }}
         </Titlee>

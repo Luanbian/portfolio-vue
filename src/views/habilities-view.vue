@@ -21,11 +21,7 @@ import CardSection from '../components/Card-section.vue'
 export default {
   methods: {
     scrolltoAbout () {
-      const heightOfPage = 3.3
-      window.scrollTo({
-        top: window.innerHeight * heightOfPage,
-        behavior: 'smooth'
-      })
+      document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })
     }
   },
   components: { Principal, ButtonAbout, Bar, Titlee, CardSection }

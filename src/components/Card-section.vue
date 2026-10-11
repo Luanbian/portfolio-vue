@@ -62,7 +62,7 @@ export default defineComponent({
           title: "Backend",
           desc: {
             item1: "/images/ruby-icon.svg",
-            item2: "images/rails-icon.svg",
+            item2: "/images/rails-icon.svg",
             item6: "/images/typescript-icon.svg",
             item7: "/images/node-icon.svg",
             item8: "/images/java-icon.svg",
