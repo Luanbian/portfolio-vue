@@ -14,78 +14,64 @@
         <Subtitle>
           {{ hability.title }}
         </Subtitle>
-        <div style="display: flex">
-          <img :src="hability.desc.item1" />
-          <img :src="hability.desc.item2" />
-          <img :src="hability.desc.item3" />
-          <img :src="hability.desc.item4" />
-        </div>
-        <div style="display: flex; gap: 10px">
-          <img :src="hability.desc.item5" />
-          <img :src="hability.desc.item6" />
-          <img :src="hability.desc.item7" />
-          <img :src="hability.desc.item8" />
-          <img :src="hability.desc.item9" />
+        <div v-for="(row, rowIndex) in hability.rows" :key="rowIndex" style="display: flex; gap: 10px; margin-bottom: 10px">
+          <component :is="tech" v-for="(tech, index) in row" :key="index" style="width: 40px; height: 40px" />
         </div>
       </Card>
     </Space>
   </All>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
+<script setup lang="ts">
 import "../styles/variables.css";
 import { All, BoxIcon, Card, Space } from "../styles/habilities-styled";
 import { Subtitle } from "../styles/presentation-styled";
+import IconReact from "~icons/logos/react";
+import IconJavascript from "~icons/logos/javascript";
+import IconTypescript from "~icons/logos/typescript-icon";
+import IconRedux from "~icons/logos/redux";
+import IconNextjs from "~icons/logos/nextjs-icon";
+import IconRuby from "~icons/logos/ruby";
+import IconRails from "~icons/logos/rails";
+import IconNode from "~icons/logos/nodejs-icon";
+import IconJava from "~icons/logos/java";
+import IconSpring from "~icons/logos/spring-icon";
+import IconJest from "~icons/logos/jest";
+import IconGit from "~icons/logos/git-icon";
+import IconMongo from "~icons/logos/mongodb-icon";
+import IconGraphql from "~icons/logos/graphql";
+import IconPostgresql from "~icons/logos/postgresql";
+import IconDocker from "~icons/logos/docker-icon";
+import IconRspec from "~icons/devicon/rspec";
 
-export default defineComponent({
-  name: "Card-section",
-  data() {
-    return {
-      habilities: [
-        {
-          id: 1,
-          icon: "/images/monitor.svg",
-          title: "Frontend",
-          desc: {
-            item2: "/images/react-icon.svg",
-            item3: "/images/javascript-icon.svg",
-            item4: "/images/typescript-icon.svg",
-            item5: "/images/redux-icon.svg",
-            item6: "/images/nextjs-icon.svg",
-          },
-        },
-        {
-          id: 2,
-          middle: true,
-          icon: "/images/database.svg",
-          title: "Backend",
-          desc: {
-            item1: "/images/ruby-icon.svg",
-            item2: "/images/rails-icon.svg",
-            item6: "/images/typescript-icon.svg",
-            item7: "/images/node-icon.svg",
-            item8: "/images/java-icon.svg",
-            item9: "/images/spring-icon.svg",
-          },
-        },
-        {
-          id: 3,
-          icon: "/images/code.svg",
-          title: "Extras  ",
-          desc: {
-            item1: "/images/jest-icon.svg",
-            item2: "/images/git-icon.svg",
-            item3: "/images/mongo-icon.svg",
-            item4: "/images/graphql-icon.svg",
-            item5: "/images/postgresql-icon.svg",
-            item6: "/images/docker-icon.svg",
-            item7: "/images/rspec-icon.svg",
-          },
-        },
-      ],
-    };
+const habilities = [
+  {
+    id: 1,
+    icon: "/images/monitor.svg",
+    title: "Frontend",
+    rows: [
+      [IconReact, IconJavascript, IconTypescript],
+      [IconRedux, IconNextjs],
+    ],
   },
-  components: { All, BoxIcon, Card, Subtitle, Space },
-});
+  {
+    id: 2,
+    middle: true,
+    icon: "/images/database.svg",
+    title: "Backend",
+    rows: [
+      [IconRuby, IconRails],
+      [IconTypescript, IconNode, IconJava, IconSpring],
+    ],
+  },
+  {
+    id: 3,
+    icon: "/images/code.svg",
+    title: "Extras",
+    rows: [
+      [IconJest, IconGit, IconMongo, IconGraphql],
+      [IconPostgresql, IconDocker, IconRspec],
+    ],
+  },
+];
 </script>
