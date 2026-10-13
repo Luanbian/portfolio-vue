@@ -19,6 +19,8 @@
   "devDependencies": {
     "@iconify-json/devicon": "^1.2.71",
     "@iconify-json/logos": "^1.2.16",
+    "@iconify-json/simple-icons": "^1.2.100",
+    "@iconify-json/thesvg-color": "^1.2.16",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "@vitejs/plugin-vue": "^4.1.0",
     "@volar-plugins/vetur": "latest",

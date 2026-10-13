@@ -39,8 +39,8 @@ Portfólio pessoal one-page em Vue 3, bilíngue (PT-BR/EN), deploy na Vercel.
 - Styled components com nome que colide com tag HTML levam letra duplicada (`Titlee`, `Mainn`, `Buttonn`) — manter o padrão
 - "habilities" é o nome usado para a seção de skills; manter por consistência
 - Componentes novos: preferir `<script setup lang="ts">` (código antigo mistura Options API)
-- Ícones de tecnologia via `unplugin-icons` (inline no build, zero requests): `import X from "~icons/logos/<nome>"`; buscar nomes em icones.js.org (set `logos`, fallback `devicon`). Não adicionar SVG de tecnologia em `public/images/`
-- Skills são editadas em `src/components/Card-section.vue` (`rows`: duas linhas de ícones por card)
+- Ícones de tecnologia via `unplugin-icons` (inline no build, zero requests): `import X from "~icons/logos/<nome>"`; buscar nomes em icones.js.org (set `logos`, fallback `devicon` / `thesvg-color` / `simple-icons`). Não adicionar SVG de tecnologia em `public/images/`
+- Skills são editadas em `src/components/Card-section.vue` (`techs` por card; títulos em `message.habilities` no `messages.ts`)
 - Projetos são editados em `src/components/Project-section.vue` + chaves em `messages.ts`
 
 ## Git

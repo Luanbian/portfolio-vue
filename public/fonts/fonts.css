@@ -3,6 +3,16 @@
   src: url('../fonts/Benguiat\ Normal.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+  unicode-range: U+0000-007F;
+}
+
+/* Benguiat maps accented Latin codepoints to Cyrillic glyphs, so non-ASCII falls back to Literata */
+@font-face {
+  font-family: 'Title';
+  src: url('../fonts/Literata-VariableFont_opsz\,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  unicode-range: U+0080-FFFF;
 }
 
 @font-face {

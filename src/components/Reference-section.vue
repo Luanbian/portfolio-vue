@@ -32,6 +32,12 @@ export default defineComponent({
           image: '/images/double-quote.svg',
           text: 'message.referenceTwo.referenceTwoText',
           refe: 'message.referenceTwo.referenceTwoRefe'
+        },
+        {
+          id: 3,
+          image: '/images/double-quote.svg',
+          text: 'message.referenceThree.referenceThreeText',
+          refe: 'message.referenceThree.referenceThreeRefe'
         }
       ]
     }

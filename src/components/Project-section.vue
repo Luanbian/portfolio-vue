@@ -1,7 +1,7 @@
 <template>
   <Project v-for="project in projects" :key="project.id">
     <ProjectImage>
-      <img :src="project.image" style="width: 100%" />
+      <img :src="project.image" />
     </ProjectImage>
     <BoxDesc>
       <ProjectTitle>{{ $t(project.text) }}</ProjectTitle>
@@ -25,6 +25,12 @@ export default defineComponent({
   data() {
     return {
       projects: [
+        {
+          id: 6,
+          image: "/images/matter.png",
+          text: "message.projectSix.projectSixText",
+          description: "message.projectSix.projectSixDesc",
+        },
         {
           id: 1,
           image: "/images/bluecore.jpg",

@@ -12,6 +12,7 @@ export const Square = styled.div`
 `
 
 export const SquareRefe = styled.div`
+    flex: 1;
     max-width: 40%; 
     padding: 2%;
     @media (max-width: 800px) {

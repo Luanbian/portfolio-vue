@@ -26,8 +26,17 @@ export const BoxDesc = styled.div`
 `
 
 export const ProjectImage = styled.div`
+    width: 100%;
+    max-width: 612px;
+    min-width: 0;
     -webkit-filter: drop-shadow(-10px 10px 20px rgba(0 0 0 / 50%));
     z-index: 1;
+    img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 17 / 5;
+        object-fit: cover;
+    }
     @media (max-width: 850px) {
         -webkit-filter: none;
     }
